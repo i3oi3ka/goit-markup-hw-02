@@ -50,13 +50,9 @@ address {
   font-style: normal;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
-  .portfolio {
-    background-color: F4F4FD;
-  }
-
   height: 1px;
   margin: -1px;
   border: 0;
@@ -65,7 +61,7 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .section-title {
   font-size: 36px;
@@ -97,7 +93,7 @@ address {
 .address-link {
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--cl-secondary);
+  color: var(--cl-primary);
 }
 
 .header-nav-link:hover,
@@ -121,7 +117,7 @@ address {
 }
 
 .logo-dark {
-  color: var(--cl-primary);
+  color: var(--cl-secondary);
 }
 
 .logo-light {
@@ -142,7 +138,7 @@ address {
 
 /* #region Hero */
 .hero {
-  background-color: var(--cl-primary);
+  background-color: var(--cl-secondary);
   text-align: center;
   color: var(--cl-white);
 }
@@ -155,7 +151,7 @@ address {
 
 /* #region Footer */
 footer {
-  background-color: var(--cl-primary);
+  background-color: var(--cl-secondary);
 }
 .footer-text {
   color: var(--cl-light);
