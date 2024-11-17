@@ -4,8 +4,8 @@
   --secondary-font: 'Raleway', sans-serif;
 
   /* Colors */
-  --cl-primary: #2e2f42;
-  --cl-secondary: #434455;
+  --cl-primary: #434455;
+  --cl-secondary: #2e2f42;
   --cl-white: #fff;
   --cl-light: #f4f4fd;
   --cl-accent: #4d5ae5;
@@ -21,18 +21,19 @@ ol {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--cl-secondary);
 }
 
 p {
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--cl-secondary);
 }
 
 body {
   font-family: var(--primary-font);
   font-size: medium;
+  color: var(--cl-primary);
+  background-color: var(--cl-white);
 }
 
 button {
@@ -52,6 +53,10 @@ address {
 .visually-hidden {
   position: absolute;
   width: 1px;
+  .portfolio {
+    background-color: F4F4FD;
+  }
+
   height: 1px;
   margin: -1px;
   border: 0;
@@ -68,6 +73,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: var(--cl-secondary);
 }
 
 .section-subtitle {
@@ -75,6 +81,7 @@ address {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  color: var(--cl-secondary);
 }
 
 /* #endregion */
@@ -95,7 +102,6 @@ address {
 
 .header-nav-link:hover,
 .header-nav-link:focus,
-.home-link:active,
 .address-link:hover,
 .address-link:focus {
   color: var(--cl-hover);
@@ -154,9 +160,12 @@ footer {
 .footer-text {
   color: var(--cl-light);
 }
-
 /* #endregion */
 
+.team {
+  background-color: var(--cl-light);
+}
+
 .team-item {
-  text-align: center;
+  background-color: var(--cl-white);
 }
